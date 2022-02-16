@@ -1,0 +1,11 @@
+version: 0.2
+
+
+phases:
+  pre_build:
+     commands:
+      - pip install -r python/requirements.txt
+  build:
+     commands:
+      - echo "Start python"
+      - python python/receiveRandompass.py
