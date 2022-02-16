@@ -1,7 +1,7 @@
 #!/bin/bash
 
 terraform init
-terraform apply 
+terraform apply -auto-approve
 
 
 IP=$(./getip.sh pass_app)
