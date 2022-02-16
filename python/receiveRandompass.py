@@ -29,7 +29,7 @@ def get_pass_requirements(letters, digits, specialcharacter, length, passwords):
 passwordApp = Flask(__name__)
 @passwordApp.route('/', methods=['GET'])
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<p>UP</p>"
 
 @passwordApp.route('/p', methods=['POST'])        
 def read_json():
